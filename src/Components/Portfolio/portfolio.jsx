@@ -14,7 +14,7 @@ function Portfolio() {
   return (
     <div id="Portfolio">
        <div className="portfolio">
-          <div className='about'><h3 className="heading">My Portfolio</h3></div>
+          <div className='about'><h3 className="heading">My portfolio</h3></div>
           <div className='project-grid'>
            {Projects.map((project,index) => ( 
             <div key={index} className="project-card">
