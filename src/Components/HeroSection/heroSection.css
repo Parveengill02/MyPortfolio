@@ -1,0 +1,76 @@
+.herosection{
+    background-color: rgb(226 226 226);
+    justify-content:center;
+    align-items: center;
+    display:flex;
+   
+}
+.leftSec{
+    padding:20px 20px;
+    width:50vw;
+    height:100vh;
+    
+    align-items: center;
+    position: relative;
+}
+.firstletter{
+    font-weight: 600;
+    color: rgb(128, 179, 181);
+    font-size: 60px;
+    font-family: fangsong;
+
+}
+.leftSec .content{
+    left: 19%;
+    top: 25%;
+    position: absolute;
+}
+.rightSec{
+    padding:20px 20px;
+    width:50vw;
+    height:100vh;
+     align-items: center;
+    position: relative;
+}
+.btn{
+  
+    display: flex;
+    gap:15px;
+}
+.btn button{
+   font-weight: 500;
+    background-color: rgb(128, 179, 181);
+    color: rgb(226 226 226);
+    padding: 12px;
+    border: none;
+    border-radius: 19px;
+    transition: transform 0.3s ease;
+}
+.btn button:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    
+}
+.btn img{
+    height:18px;
+
+}
+.shape{
+left: 49%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 21%;
+    position: absolute;
+    background-color: rgb(128 179 181 / 41%);
+   
+}
+.heroImg{
+    border: 23px solid #bacfd0;
+    top: 21%;
+    left: 17%;
+    position: absolute;
+    border-radius: 50%;
+    
+    height: 363px;
+}
