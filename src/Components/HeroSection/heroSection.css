@@ -74,3 +74,47 @@ left: 49%;
     
     height: 363px;
 }
+
+@media (max-width: 768px) {
+  .herosection {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .leftSec, .rightSec {
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .leftSec .content {
+    position: static;
+    text-align: center;
+  }
+
+  .btn {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .shape {
+    display:none
+  }
+
+  .heroImg {
+    position: static;
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    display: block;
+    border-width: 15px;
+  }
+
+  .firstletter {
+    font-size: 40px;
+  }
+}

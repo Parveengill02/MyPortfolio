@@ -57,32 +57,35 @@
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px !important;
+    flex-wrap: wrap;
+    padding: 10px 16px !important;
   }
 
   .navbar ul {
-    flex-direction: column;
     gap: 15px;
-    width: 100%;
-    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .navbar li {
-    padding: 10px 0;
-    text-align: left;
-    width: 100%;
-  }
-
-  .left {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    padding: 10px;
+    font-size: 15px;
   }
 
   .logo img {
     height: 50px;
     width: auto;
   }
+
+  .left {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .navbar h4,
+  .navbar p {
+    font-size: 16px;
+    text-align: center;
+  }
 }
+
