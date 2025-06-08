@@ -54,3 +54,38 @@
     display: flex
 ;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 16px !important;
+  }
+
+  .navbar ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar li {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+
+  .left {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .navbar h4,
+  .navbar p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
