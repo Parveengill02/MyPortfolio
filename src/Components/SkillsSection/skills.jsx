@@ -16,24 +16,24 @@ function Skills() {
             </div>
             <div className="skill">
                  <img src="/images/css.png"/><br/>
-                 <label>HTML5</label>
+                 <label>CSS</label>
             </div>
                 {/* </div>  */}
           
              <div className="skill">
                  <img src="/images/js.png"/><br/>
-                 <label>HTML5</label>
+                 <label>Js</label>
            
 </div>
 <div className="skill">
                  <img src="/images/node.png"/><br/>
-                 <label>HTML5</label>
+                 <label>Node Js</label>
             </div><div className="skill">
                  <img src="/images/express.png"/><br/>
-                 <label>HTML5</label>
+                 <label>Express</label>
             </div><div className="skill">
                  <img src="/images/mysql.png"/><br/>
-                 <label>HTML5</label>
+                 <label>MySQL</label>
             </div>
       </div>     
         </div>

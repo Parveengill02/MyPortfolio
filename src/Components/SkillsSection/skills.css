@@ -46,3 +46,9 @@
 .allSkills img{
     height:70px;
 }
+
+@media(max-width:768px){
+    .skill{
+        width:25%;
+    }
+}
