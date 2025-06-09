@@ -19,9 +19,9 @@ function Navbar() {
      </div>
       <div>
         <ul>
-         <Link to="home" smooth={true} duration={200}><li>Home</li></Link> 
-          <Link to="about" smooth={true} duration={200}><li>About</li></Link> 
-         <Link to="skill" smooth={true} duration={200}><li>Skills</li></Link> 
+         <Link to="home" smooth={true} offset={-100}duration={200}><li>Home</li></Link> 
+          <Link to="about" smooth={true} offset={-70}duration={200}><li>About</li></Link> 
+         <Link to="skill" smooth={true}offset={-100} duration={200}><li>Skills</li></Link> 
            <Link to="Portfolio" smooth={true} duration={200}><li>Portfolio</li></Link> 
           <Link><li>Contact</li></Link> 
         </ul>
