@@ -15,7 +15,7 @@ function Contact() {
     reset();
    }
   return (
-    <div>
+    <div id="contact">
       <div className="Contactform">
           <div className='about'><h3 className="heading">Contact Me</h3></div>
           <form onSubmit={handleSubmit(onSubmit)}>
